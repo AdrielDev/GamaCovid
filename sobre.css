@@ -54,7 +54,6 @@ body {
 
 #conteudo {
     font-family: Roboto;
-    margin-top: 150px;
     margin: 185px 22% 0px;
 }
 
@@ -127,7 +126,7 @@ footer {
     position: unset;
     bottom: 0px;
     width: 100%;
-    padding: 16px;
+    padding: 16px 0;
     background-color: #1E90FF;
     font-family: Raleway;
 }
