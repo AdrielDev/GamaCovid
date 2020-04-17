@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(font/Raleway/Raleway-Bold.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*----------------------------CABEÇALHO---------------------------------*/
+
+#navbar {
+    color: aliceblue;
+    font-family: Raleway;
+    position: fixed;
+    background-color: #1E90FF;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 0px 5px #000080;
+}
+
+#navbar a {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#navbar a:hover {
+    background-color: #00BFFF;
+}
+
+#navTop {
+    display: block;
+    text-align: center;
+}
+
+#navBottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navBottom a{
+    text-decoration: none;
+}
+
+/*----------------------------MAIN---------------------------------*/
+
+#conteudo {
+    border: black 1px solid;
+    border-radius: 20px;
+    font-family: Roboto;
+    margin-top: 150px;
+    margin: 185px 30% 0px;
+    padding: 20px 40px 40px;
+
+}
+
+#conteudo p, label{
+    font-size: 18px;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conteudo h2{
+    text-align: center;
+}
+
+form label {
+    width: 100%;
+    margin: 8px;
+}
+
+form input, form textarea {
+    width: 70%;
+}
+
+form input {
+    background-color: #B0C4DEaa;
+    color: black;
+    border: none;
+    box-shadow: 2px 1px 2px 1px #ADD8E6aa;
+    font-size: 17px;
+    padding: 5px;
+    height: 30px;
+}
+
+form textarea {
+    background-color: #B0C4DEaa;
+    color: black;
+    border: none;
+    box-shadow: 2px 1px 2px 1px #ADD8E6aa;
+    font-size: 17px;
+    padding: 5px;
+    height: 150px;
+}
+
+form button {
+    width: 40%;
+    height: 35px;
+    font-size: 18px;
+    background-color: #ADD8E6bb;
+    border: none;
+}

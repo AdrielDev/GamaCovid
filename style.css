@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(font/Raleway/Raleway-Bold.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*----------------------------CABEÇALHO---------------------------------*/
+
+#navbar {
+    color: aliceblue;
+    font-family: Raleway;
+    position: fixed;
+    background-color: #1E90FF;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 0px 5px #000080;
+}
+
+#navbar a {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#navbar a:hover {
+    background-color: #00BFFF;
+}
+
+#navTop {
+    display: block;
+    text-align: center;
+}
+
+#navBottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navBottom a{
+    text-decoration: none;
+}
+
+/*----------------------------MAIN---------------------------------*/
+
+#conteudo {
+    font-family: Roboto;
+    margin-top: 150px;
+    margin: 185px 22% 0px;
+}
+
+#conteudo p{
+    font-size: 19px;
+}
+
+#conteudo a h1{
+    font-size: 35px;
+    text-decoration: none;
+}
+
+#conteudo a{
+    color: #4682B4;
+    text-decoration: none;
+}
+
+/*----------------------------ALINHAMENTO---------------------------------*/
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignLeft a h2{
+    border-left: #4169E1 10px solid;
+    padding: 5px 0px 5px 5px;
+}
+
+.alignLeft p, table {
+    margin-left: 15px;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+
+.alignRight a h2{
+    border-right: #4169E1 10px solid;
+    padding: 5px 5px 5px 0px;
+}
+
+/*-------------------------------TABLE------------------------------*/
+
+#table {
+    margin-bottom: 20px;
+}
+
+#table th {
+    background-color: #E0FFFF;
+    padding: 7px;
+}
+
+#table td {
+    background-color: #F0FFFF;
+    text-align: center;
+}
+
+/*-------------------------------------------------------------*/
+
+#news{
+    margin-bottom: 70px;
+}
+
+#news img {
+    width: 100%;
+    padding: 10px;
+}
+
+.rodapeNews a{
+    background-color: #E6E6FA;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+#notice {
+    width: 70%;
+}
+
+#noticeRight {
+    width: 70%;
+    margin: 0 15px 0 auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 16px;
+    background-color: #1E90FF;
+    font-family: Raleway;
+}
