@@ -12,5 +12,5 @@
   <li><b>Saiba Mais -</b> curadoria de fontes de onde você tirou essas notícias, para o caso da pessoa querer navegar e descobrir outras.;</li>
 </ul>
 <p><b>Obs.:</b> Não é preciso ter domínio próprio e recomendamos o Netlify para hospedagem. <br>
-Link: https://gallant-goldstine-200019.netlify.app/</p>
+  Link: <a target="_blank">https://gallant-goldstine-200019.netlify.app/</a></p>
 
